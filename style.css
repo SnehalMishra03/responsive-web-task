@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+span{
+    color: red;
+    
+}
+.nav-bar{
+    background-color: #333;
+    padding: 2.5rem;
+    margin: auto;
+    font-family: monospace;
+    font-size: 1rem;
+    border-bottom: .25rem solid red
+}
+.head{
+    text-align: center;
+    color: #fff;
+    
+    position: relative;
+ 
+}
+
+.crumbs ol{
+    list-style-type: none;
+    text-align: center;
+    
+}
+.crumb{
+    display: inline-block;
+    text-align: center;
+    padding: 1rem;
+}
+.crumb a{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+
+}
+a:hover{
+    color: red;
+}
+.body{
+    background-image: url('body1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.7;
+    
+}
+.body h1, p{
+    font-family: monospace;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    
+}
+.input{
+    background-color:#333;
+    margin: auto;
+}
+.input h2{
+    font-family: monospace;
+     color: #fff;
+     text-align: center;
+     padding: 0.8rem;
+     font-size: 2.5rem;
+}
+.Mail{
+    font-family: monospace;
+    position: relative;
+    left: 12rem;
+    width: 70%;
+    height: 27px;
+
+    padding: 0.3rem;
+}
+.Btn{
+    font-size: 27px;
+    font-family: monospace;
+    background-color: red;
+    color: #fff;
+    font-family: monospace;
+    position: relative;
+    left: 12rem;
+    width: 72%;
+    height: 35px;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+    
+}
+.foot{
+    background-color: rgb(247, 12, 12);
+   height: 20px;
+   text-align: center;
+   color: #fff;
+   padding: 1.5rem;
+}
+.logos{
+    text-align: center;
+    font-family: monospace;
+    padding: 1.5rem;
+}
+.logos img{
+    width: 20%;
+
+}
